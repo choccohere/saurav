@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Modern Mind - Reconnecting in the Digital Age</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+
+    body {
+      background-color: #f4f6f8;
+      color: #333;
+    }
+
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    header p {
+      margin-top: 1rem;
+      font-size: 1.2rem;
+    }
+
+    .section {
+      padding: 2rem 1rem;
+      max-width: 1000px;
+      margin: 0 auto;
+    }
+
+    .section h2 {
+      font-size: 2rem;
+      margin-bottom: 1rem;
+      color: #4a90e2;
+    }
+
+    .cards {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 1rem;
+    }
+
+    .card {
+      flex: 1 1 calc(33% - 1rem);
+      background: white;
+      padding: 1.5rem;
+      border-radius: 8px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+      transition: transform 0.3s, box-shadow 0.3s;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+    }
+
+    .cta {
+      text-align: center;
+      margin-top: 2rem;
+    }
+
+    .cta a {
+      display: inline-block;
+      margin: 0.5rem;
+      padding: 0.75rem 1.5rem;
+      background: #4a90e2;
+      color: white;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .cta a:hover {
+      background: #357ab8;
+    }
+
+    footer {
+      text-align: center;
+      padding: 2rem;
+      background: #333;
+      color: white;
+      margin-top: 2rem;
+    }
+
+    @media (max-width: 768px) {
+      .card {
+        flex: 1 1 100%;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Modern Mind</h1>
+    <p>Reconnecting in the Digital Age</p>
+  </header>
+
+  <section class="section">
+    <h2>The Problem We Face</h2>
+    <p>People are overwhelmed with constant work pressure, addictive social media, and a lack of real-life human connection. Mental health is suffering — but change is possible.</p>
+  </section>
+
+  <section class="section">
+    <h2>Understanding the Causes</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Work Overload</h3>
+        <p>Hustle culture and blurred boundaries have caused chronic stress and burnout.</p>
+      </div>
+      <div class="card">
+        <h3>Social Media</h3>
+        <p>Comparison, distraction, and misinformation are contributing to anxiety and low self-esteem.</p>
+      </div>
+      <div class="card">
+        <h3>Isolation</h3>
+        <p>Real connections are declining, leading to loneliness and emotional disconnection.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section">
+    <h2>Real Solutions</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>Mindfulness</h3>
+        <p>Simple daily practices to calm the mind and reconnect with the present.</p>
+      </div>
+      <div class="card">
+        <h3>Digital Detox</h3>
+        <p>Break the cycle of addiction and reclaim your time and attention.</p>
+      </div>
+      <div class="card">
+        <h3>Work-Life Reset</h3>
+        <p>Learn to set healthy boundaries to protect your peace and relationships.</p>
+      </div>
+    </div>
+  </section>
+
+  <div class="cta">
+    <a href="#">Join Our Community</a>
+    <a href="#">Explore More Tips</a>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 Modern Mind. All rights reserved.</p>
+  </footer>
+</body>
+</html>
